@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 h1,
@@ -15,7 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 83px;
 }
 
 h2 {
@@ -30,6 +31,26 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+header{
+  /* top: 0px; */
+  position: relative;
+  margin-bottom: 120px;
+  background-image: url(/images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -20px;
 }
 
 .navigation-links {
