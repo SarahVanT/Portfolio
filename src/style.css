@@ -1,68 +1,200 @@
 :root{
   --primary-color: #6c63ff;
-  --font-family: 'Lato', sans-serif; 
+  --primary-font-family: 'Neuton', serif;
+  --secondary-font-family: 'Lato', sans-serif;
   --background-color: #D7ECF5;
+}
+
+html {
+  margin: auto;
+  min-height: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6{
   color: black;
-  font-family: var(--font-family);
+  font-family: var(--primary-font-family);
   font-weight: bold;
 }
 
 h1{
-  font-size: 96px;
-  line-height: 1.5;
+  font-size: 80px;
 }
 
 h2{
-  font-size: 64px;
-}
-
-p{
-  font-family: var(--font-family);
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-} 
-
-.hero{
-  background: var(--background-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero h1{
   font-size: 60px;
 }
 
-.hero h2{
-  font-size: 50px;
+h3{
+  font-size: 40px;
 }
 
-.btn-branding{
-  background: var(--primary-color);
-  border-radius: 4px;
+p{
+  font-family: var(--secondary-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+} 
+
+/* header{
+  background: #D6CCE8;
+  position: relative;
+  color: black;
+  padding: 40px 70px;
+  text-align: left;
+} */
+
+header{
+  top: -1px;
+  position: relative;
+  margin-bottom: 70px;
+  background-image: url("/images/PurpleBackground2.0.png");
+  background-repeat: no-repeat;
+  /* stretching background to fill container */
+  background-size: cover;
+  /* position a background-image on y-axis */
+  /* background-position-y: -470px; */
+}
+
+.hero{
+  padding: 23px 70px;
+}
+
+
+
+header h1{
+  line-height: 1.2;
+  margin: 0;
+}
+
+
+/* .hero{
+  background: #D6CCE8;
+  color: black;
+  padding: 40px 70px;
+  text-align: left;
+} */
+
+.hero ul{
+  padding: 0;
+}
+
+.hero li{
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+}
+
+.hero ul li{
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.hero img{
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hero a{
+  margin: 0;
+}
+
+.navbar {
+  /* backdrop-filter: blur(20px); */
+  background-color: rgba(214, 204, 232); /* change to your desired background color */
+}
+
+.navbar-nav .nav-link {
+  font-family: var(--secondary-font-family);
+  color: black !important;
+  font-weight: bold;
+}
+
+.nav-item a:hover{
+  text-decoration: underline;
+}
+
+.icons{
+  font-size: 25px;
+  color: #407893;
+  transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
+}
+
+.icons:hover{
+  color: #5E9BA9;
+}
+
+.copy{
+  color: black;
+}
+
+.button-primary {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  /* background: #344872; */
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  /* border: 1.8px solid #5CAFB1; */
+  text-decoration: none;
   color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.7s ease-in-out, color 0.5s ease-in-out;
 }
 
-.btn-branding-secondary{
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+.button-primary:hover{
+  /* background: #435c92; */
+  opacity: 0.9;
+  color: white;
 }
+
+.project-photo{
+  width: 100%;
+  transition: all 300ms ease-in-out;
+}
+
+.project-photo:hover{
+  transform: scale(1.2);
+}
+
 
 .project-description{
-  padding: 0 60px;
+  padding: 0 40px;
 }
 
+.project-description p{
+  margin-bottom: 0;
+}
+
+.footer-background {
+  /* backdrop-filter: blur(20px); */
+  background-color: rgba(214, 204, 232); /* change to your desired background color */
+}
+
+
+
+.about-section{
+  padding: 80px 130px;
+}
+
+.profile-img{
+  border-radius: 5px;
+}
+
+
+
+
 @media (max-width: 950px){
+  header {
+    background-position-y: -439px;
+  }
+  header .container {
+    text-align: center;
+    padding-top: 20px;
+  }
+  header img{
+    display: none;
+  }
   h2{
     font-size: 40px;
   }
@@ -76,9 +208,7 @@ p{
     padding: 0;
     text-align: center;
   }
-  .hero{
-    padding: 80px 20px;
-  }
+  
 }
 
 

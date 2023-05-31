@@ -7,35 +7,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Sarah VanTilburg is a front-end developer based in Ohio, check out her projects and contact her for job inquiries">
-  <title>Front-end developer - Sarah VanTilburg</title>
+  <title>Front-End Developer | Sarah VanTilburg</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/2e89d80a8b.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Neuton:wght@400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/style.css" />
 </head>
 
 <body>
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/sv-high-resolution-logo-color-on-transparent-background.png" alt="Sarah VanTilburg Logo"
+          width="80" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Sarah VanTilburg</a>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/sv-high-resolution-logo-color-on-transparent-background.png" alt="Sarah VanTilburg Logo"
+          width="80" height="50">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">Projects</a>
+            <a class="nav-link" href="">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact me</a>
@@ -46,157 +73,118 @@
   </nav> -->
   <header>
     <div class="hero">
-      <h1>👋 Hi, I'm<br>Sarah VanTilburg</h1>
-      <h2 class="mb-5">Front-end developer based in Ohio</h2>
-      <div>
-        <a href="#" class="btn btn-branding">Learn more about me</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 text-start">
+            <h1>Hi, I'm<br>Sarah VanTilburg</h1>
+            <div class="mt-3 mb-3">
+              <ul>
+                <li>_Front-end Developer</li>
+                <li>_Air Force Veteran</li>
+                <li>_Based in Dayton, Ohio</li>
+                <li>_Love coding in HTML, CSS & JavaScript</li>
+                <li>_Passion for creating wireframes, and prototypes</li>
+                <li>_Graduated from The Ohio State University UX/UI Boot Camp</li>
+              </ul>
+            </div>
+
+            <div>
+              <a href="#" target="_blank" class="button-primary">Learn more about me</a>
+            </div>
+          </div>
+          <div class="col-sm-5 text-end">
+            <img src="images/test_photo 1.png" alt="Picture of Sarah VanTilburg" class="img-fluid " width="450">
+          </div>
+        </div>
+
       </div>
 
-      <!-- <ul>
-            <li>
-              _Air Force Veteran
-            </li>
-            <li>
-              _Love coding in HTML and CSS
-            </li>
-            <li>
-              _Graduated from The Ohio State University UX/UI Boot Camp
-            </li>
-            <li>
-              _Based in Dayton, Ohio
-            </li>
-          </ul> -->
-      <!-- <div class="mt-5">
-            <a href="#" class="primary-link project-link" title="Yoga project">Learn more about me</a>
-          </div> -->
     </div>
   </header>
-  <p class="text-center m-5">Featured Projects</p>
+
+  <h2 class="text-center mb-5">Recent projects</h2>
   <div class="container">
-    <div class="row mb-5">
+    <div class="row mb-5 ">
       <div class="col d-none d-lg-block">
-        <img src="images/images.png" alt="Yogurt project" class="img-fluid">
+        <img src="images/MacBook Pro 16 (4).png" alt="World Clock Project" class="img-fluid project-photo">
       </div>
       <div class="col">
         <div class="project-description">
-          <h2 class="mb-5">Yogurt Project</h2>
-          <p class="mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero incidunt
-            sunt sit a
-            eaque ullam voluptatem autem porro in, explicabo reiciendis iusto? Veritatis, labore repellat ipsum
-            voluptates
-            ad porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero incidunt sunt sit a
-            eaque ullam voluptatem autem porro in, explicabo reiciendis iusto? Veritatis, labore repellat ipsum
-            voluptates
-            ad porro?</p>
-          <a href="#" class="btn btn-branding-secondary">Learn more</a>
+          <h3 class="mb-4">World Clock</h3>
+          <p class="text-muted">The world clock project is a web application coded in HTML, CSS, and JavaScript,
+            utilizing a JavaScript framework. It displays the current dates and times of different locations in various
+            time zones. Users can select cities to view local times. The application updates in real-time, ensuring
+            accurate and visually appealing time displays.</p>
+          <a href="#" class="button-primary mt-4">Learn more</a>
         </div>
 
       </div>
     </div>
     <div class="row mb-5">
-      <div class="col ">
+      <div class="col">
         <div class="project-description">
-          <h2 class="mb-5">Weather App</h2>
-          <p class="mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero incidunt
-            sunt sit a
-            eaque ullam voluptatem autem porro in, explicabo reiciendis iusto? Veritatis, labore repellat ipsum
-            voluptates
-            ad porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero incidunt sunt sit a
-            eaque ullam voluptatem autem porro in, explicabo reiciendis iusto? Veritatis, labore repellat ipsum
-            voluptates
-            ad porro?</p>
-          <a href="#" class="btn btn-branding-secondary">Learn more</a>
+          <h3 class="mb-4">JavaScript Weather App</h3>
+          <p class="text-muted">In my coding project, I utilized HTML, CSS, JavaScript, and the OpenWeather API to
+            create a weather application that provides real-time current forecasts for any city they choose. With a
+            sleek interface, users can easily access weather conditions like humidity, wind speed, and feels-like
+            temperature, making it a convenient tool for staying informed about the weather.</p>
+          <a href="#" class="button-primary mt-4">Learn more</a>
         </div>
 
       </div>
       <div class="col d-none d-lg-block">
-        <img src="images/weather.png" alt="Weather project" class="img-fluid">
+        <img src="images/Weather_App.png" alt="JavaScript Weather App" class="img-fluid project-photo">
       </div>
     </div>
     <div class="row mb-5">
       <div class="col d-none d-lg-block">
-        <img src="images/yoga.png" alt="Yoga project" class="img-fluid">
+        <img src="images/Nancy_Drew (1).png" alt="Nancy Drew Project" class="img-fluid project-photo">
       </div>
       <div class="col">
         <div class="project-description">
-          <h2 class="mb-5">Yogurt Project</h2>
-          <p class="mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero incidunt
-            sunt sit a
-            eaque ullam voluptatem autem porro in, explicabo reiciendis iusto? Veritatis, labore repellat ipsum
-            voluptates
-            ad porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero incidunt sunt sit a
-            eaque ullam voluptatem autem porro in, explicabo reiciendis iusto? Veritatis, labore repellat ipsum
-            voluptates
-            ad porro?</p>
-          <a href="#" class="btn btn-branding-secondary">Learn more</a>
+          <h3 class="mb-4">Nancy Drew Landing Page</h3>
+          <p class="text-muted">
+            I created a landing page for Nancy Drew book enthusiasts, featuring a collection of captivating books and
+            character descriptions. It offers an engaging gateway to the thrilling world of detective fiction using
+            HTML, CSS, and JavaScript.
+          </p>
+          <a href="#" class="button-primary mt-4">Learn more</a>
         </div>
 
       </div>
     </div>
   </div>
-
-
-  <!-- <h2 class="text-center">👋 Hi I am</h2>
-  <h1 class="text-center">Sarah VanTilburg</h1>
-  <h3 class="text-center">Front-end developer, based in Ohio</h3>
-  <div class="navigation-links mb-5">
-    <a href="about.html#contact" class="primary-link">Contact me</a>
-    <a href="about.html" class="secondary-link">About me</a>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="images/yoga.png" alt="Yoga project" class="img-fluid rounded d-none d-sm-block" />
+  <!-- <div class="container-fluid footer-background">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-5  border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Sarah VanTilburg</span>
       </div>
-      <div class="col-sm-6">
-        <h2 class="mb-3">Yoga app</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
-        </p>
-        <div class="mt-5">
-          <a href="#" class="primary-link project-link" title="Yoga project">Launch Yoga App</a>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-sm-6">
-        <h2 class="mb-3">Weather app</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
-        </p>
-        <div class="mt-5">
-          <a href="#" class="primary-link project-link" title="Weather project">Launch Weather App</a>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <img src="images/weather.png" alt="Weather project" class="img-fluid rounded d-none d-sm-block" />
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-6">
-        <img src="images/yogurt.png" alt="Yogurt project" class="img-fluid rounded d-none d-sm-block" />
-      </div>
-      <div class="col-sm-6">
-        <h2 class="mb-3">Yogurt app</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
-        </p>
-        <div class="mt-5">
-          <a href="#" class="primary-link project-link" title="Yogurt project">Launch Yogurt App</a>
-        </div>
-      </div>
-    </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
+        <li class="ms-3"><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+        <li class="ms-3"><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+      </ul>
+    </footer>
   </div> -->
+  <div class="container-fluid footer-background">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 border-top">
+      <div class="col-md-4 d-flex align-items-center mx-4">
+        <span class="copy">&copy; 2023 Sarah VanTilburg</span>
+      </div>
+      <div class="col-md-4 d-flex align-items-center justify-content-end">
+        <div class="mx-4">
+          <ul class="nav d-flex list-unstyled">
+            <li class="ms-3"><a href="https://www.shecodes.io/graduates/69602-sarah-vantilburg" target="_blank" title="SheCodes Certificates"><i class="fa-solid fa-award fa-lg icons"></i></a></li>
+            <li class="ms-3"><a href="https://www.linkedin.com/in/sarah-vantilburg/" target="_blank" title="LinkedIn Profile"><i class="fa-brands fa-linkedin fa-lg icons"></i></a></li>
+            <li class="ms-3"><a href="https://github.com/SarahVanT" target="_blank" title="GitHub Profile"><i class="fa-brands fa-github fa-lg icons"></i></a></li>
+            <li class="ms-3"><a href="mailto:sarahvantilburg1@outlook.com" title="Email Me"><i class="fa-solid fa-envelope fa-lg icons"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
+  
 </body>
 
 </html>
