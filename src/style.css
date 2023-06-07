@@ -29,6 +29,10 @@ h3{
   font-size: 40px;
 }
 
+h4{
+  font-size: 25px;
+}
+
 p{
   font-family: var(--secondary-font-family);
   font-weight: normal;
@@ -47,7 +51,7 @@ header h1{
 }
 
 .hero{
-  padding: 50px 70px;
+  padding: 62px 70px;
 }
 
 .hero ul{
@@ -78,6 +82,7 @@ header h1{
   /* backdrop-filter: blur(20px); */
   background-color: rgba(214, 204, 232);
   box-shadow: 10px 10px 20px rgba(107, 107, 107, 0.2);
+  padding: 20px 0;
 }
 
 .navbar-nav .nav-link {
@@ -101,7 +106,7 @@ header h1{
 }
 
 .icons{
-  font-size: 25px;
+  font-size: 30px;
   color: #407893;
   transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
 }
@@ -179,11 +184,41 @@ a.button-secondary:hover i {
   margin-bottom: 0;
 }
 
-.footer-background {
-  background-color: rgba(214, 204, 232); 
+/* footer {
+  background: rgba(214, 204, 232);
+  margin-top: 80px;
+  padding: 30px;
+} */
+
+footer {
+  margin: 60px 0 20px 0;
+}
+
+footer .contact-box {
+  background: #D6CCE8;
+  padding: 30px 159px;
+  
+  border-radius: 8px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 
+footer h4 a{
+  color: black;
+  text-decoration: none;
+}
+
+footer h4 a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+footer p{
+  font-size: 16px;
+}
 
 .about-section{
   padding: 80px 130px;
@@ -192,6 +227,7 @@ a.button-secondary:hover i {
 .profile-img{
   border-radius: 5px;
 }
+
 
 
 
