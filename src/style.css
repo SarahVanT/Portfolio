@@ -177,15 +177,23 @@ footer p{
   color: rgb(246, 246, 246)!important;
 }
 
-.icons{
-  font-size: 30px;
-  color: #151515;
-  transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
+footer .social-links a{
+  margin: 0 20px;
+  background: #151515;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: rgb(246, 246, 246);
+  transition: all 0.8s ease-in-out; 
+  border: 1px solid #151515;
 }
 
-.icons:hover{
-  color: #151515cc;
+footer .social-links a:hover {
+  color: #151515;
+  background: rgb(246, 246, 246);
+  border: 1px solid #151515;
 }
+
 
 .skill-icons i{
   font-size: 50px;
@@ -200,6 +208,8 @@ footer p{
 .skill_set{
   font-size: 60px;
 }
+
+
 
 .group-icons{
   padding-right: 70px;
@@ -221,9 +231,6 @@ footer p{
 .project-description p{
   margin-bottom: 0;
 }
-
-
-
 
 .about-section{
   padding: 80px 130px;
