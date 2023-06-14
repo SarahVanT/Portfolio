@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-  font-size: 80px;
+  font-size: 70px;
 }
 
 h2{
@@ -48,33 +48,35 @@ header h1{
   margin: 0;
 }
 
-.hero{
-  padding: 62px 70px;
+footer {
+  margin: 60px 0 20px 0;
 }
 
-.hero ul{
-  padding: 0;
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 159px;
+  
+  border-radius: 8px;
 }
 
-.hero li{
-  font-family: var(--secondary-font-family);
-  font-size: 18px;
-}
-
-.hero ul li{
-  list-style-type: none;
-  padding: 5px 0;
-}
-
-.hero img{
-  border-radius: 8px; 
-  box-shadow: #1515155a 0px 3px 8px;
-}
-
-.hero a{
+footer .contact-box p {
   margin: 0;
 }
 
+
+footer h4 a{
+  color: #151515;
+  text-decoration: none;
+}
+
+footer h4 a:hover{
+  text-decoration: underline;
+  color: #151515;
+}
+
+footer p{
+  font-size: 16px;
+}
 
 .navbar {
   /* backdrop-filter: blur(20px); */
@@ -108,39 +110,31 @@ header h1{
   text-decoration: underline;
 }
 
-.icons{
-  font-size: 30px;
-  color: #151515;
-  transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
+.hero{
+  padding: 62px 70px;
 }
 
-.icons:hover{
-  color: #151515cc;
+.hero ul{
+  padding: 0;
 }
 
-.skill-icons i{
-  font-size: 50px;
-  color: #151515;
-  transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
-}
-
-.skill-icons i:hover{
-  color: #151515cc;
-}
-
-.skill_set{
-  font-size: 60px;
-}
-
-.copy{
+.hero li{
   font-family: var(--secondary-font-family);
-  font-size: 16px;
-  color: #151515;
-  padding-left: 70px;
+  font-size: 18px;
 }
 
-.group-icons{
-  padding-right: 70px;
+.hero ul li{
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.hero img{
+  border-radius: 8px; 
+  box-shadow: #1515155a 0px 3px 8px;
+}
+
+.hero a{
+  margin: 0;
 }
 
 .button-primary {
@@ -169,7 +163,7 @@ header h1{
   margin-top: 10px;
   padding: 15px 15px;
   text-decoration: none;
-  background: rgba(246, 246, 246, 0.837);
+  background: rgba(246, 246, 246);
   border: 1px solid #151515;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.515);
   color: #151515;
@@ -178,8 +172,6 @@ header h1{
   transition: all 0.8s ease-in-out; 
 }
 
-
-
 .button-secondary:hover{
   background: #151515;
   color: rgb(246, 246, 246);
@@ -187,6 +179,34 @@ header h1{
 
 .button-secondary:hover .github-icon {
   color: rgb(246, 246, 246)!important;
+}
+
+.icons{
+  font-size: 30px;
+  color: #151515;
+  transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
+}
+
+.icons:hover{
+  color: #151515cc;
+}
+
+.skill-icons i{
+  font-size: 50px;
+  color: #151515;
+  transition: color 0.8s ease-in-out, color 0.5s ease-in-out;
+}
+
+.skill-icons i:hover{
+  color: #151515cc;
+}
+
+.skill_set{
+  font-size: 60px;
+}
+
+.group-icons{
+  padding-right: 70px;
 }
 
 .project-photo{
@@ -198,7 +218,6 @@ header h1{
   transform: scale(1.2);
 }
 
-
 .project-description{
   padding: 0 40px;
 }
@@ -207,42 +226,8 @@ header h1{
   margin-bottom: 0;
 }
 
-/* footer {
-  background: rgba(214, 204, 232);
-  margin-top: 80px;
-  padding: 30px;
-} */
-
-footer {
-  margin: 60px 0 20px 0;
-}
 
 
-footer .contact-box {
-  background: var(--primary-color);
-  padding: 30px 159px;
-  
-  border-radius: 8px;
-}
-
-footer .contact-box p {
-  margin: 0;
-}
-
-
-footer h4 a{
-  color: #151515;
-  text-decoration: none;
-}
-
-footer h4 a:hover{
-  text-decoration: underline;
-  color: #151515;
-}
-
-footer p{
-  font-size: 16px;
-}
 
 .about-section{
   padding: 80px 130px;
@@ -255,7 +240,7 @@ footer p{
 
 
 
-@media only screen and (min-width: 577px) 
+@media only screen and (min-width: 768px) 
 and (max-width: 991px){
   h1{
    font-size: 48px;
@@ -273,7 +258,6 @@ and (max-width: 991px){
 
   p{
     font-size: 16px;
-    text-align: center;
   }
 
   header ul{
@@ -311,7 +295,7 @@ and (max-width: 991px){
   
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 767px){
   .hero{
     padding: 40px 70px;
   }
@@ -342,17 +326,9 @@ and (max-width: 991px){
   }
 
 
-  header img{
-    display: none;
-  }
-
   .button{
     display: flex;
     justify-content: center;
-  }
-  
-  hero img{
-    display: none;
   }
 
   .skill-icons i{
